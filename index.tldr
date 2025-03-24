@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 700.8530449602064,
-			"y": 5641.804119377555,
-			"lastActivityTimestamp": 1742641396605,
+			"x": 823.0187889073343,
+			"y": 5787.402671620117,
+			"lastActivityTimestamp": 1742825462448,
 			"meta": {}
 		},
 		{
@@ -78,6 +78,50 @@
 			},
 			"parentId": "shape:3f3maiMRlzAl0cMEeGHYp",
 			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 109.15312935258791,
+			"y": 5780.357944716617,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:d71HsFDz9kVEYuBfP47rm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 823.2916870117188,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "Whenever a state variable updates react re-renders a component"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0O0CD",
 			"typeName": "shape"
 		},
 		{
@@ -1772,9 +1816,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 98.66155165083795,
-			"y": -5446.187739735768,
-			"z": 0.7429507885382297,
+			"x": 77.14078376087775,
+			"y": -5564.319653009259,
+			"z": 0.8517008653690148,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2585,12 +2629,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:XsE-Nw2HJ1iX1FX4K4dMS",
+			"editingShapeId": "shape:d71HsFDz9kVEYuBfP47rm",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:XsE-Nw2HJ1iX1FX4K4dMS"
+				"shape:d71HsFDz9kVEYuBfP47rm"
 			],
-			"hoveredShapeId": "shape:XsE-Nw2HJ1iX1FX4K4dMS",
+			"hoveredShapeId": "shape:d71HsFDz9kVEYuBfP47rm",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -5195,7 +5239,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1062,
-				"h": 332
+				"h": 566
 			},
 			"insets": [
 				false,

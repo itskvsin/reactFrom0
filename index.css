@@ -59,3 +59,9 @@ html , body{
 .resImg{
     width: 100%;
 }
+
+.filterBtn{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
