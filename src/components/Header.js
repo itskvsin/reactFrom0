@@ -1,4 +1,5 @@
 import {LOGO_URL} from '../utils/constant'
+import image from "../public/logo.png";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <div className="logoContainer">
         <img
           className="logo"
-          src={LOGO_URL}
+          src={image}
         />
       </div>
 
