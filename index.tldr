@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 823.0187889073343,
-			"y": 5787.402671620117,
-			"lastActivityTimestamp": 1742825462448,
+			"x": 877.9148168525235,
+			"y": 6082.199154262403,
+			"lastActivityTimestamp": 1743085026124,
 			"meta": {}
 		},
 		{
@@ -1816,9 +1816,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 77.14078376087775,
-			"y": -5564.319653009259,
-			"z": 0.8517008653690148,
+			"x": -47.277965589048996,
+			"y": -5845.54050119241,
+			"z": 1.3724409147823817,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2629,12 +2629,94 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:d71HsFDz9kVEYuBfP47rm",
+			"x": 110.52296023736882,
+			"y": 5892.755661868979,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vrHsdnnHjw0F4U2FZO3qy",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 661.1749877929688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "React uses RECONCILIATION Algorithm (React Fiber)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "Virtual dom is not actual dom it is repersentation of "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "Actual DOM , VIRTUAL DOM is an OBJECT"
+								},
+								{
+									"type": "text",
+									"text": "\t "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0P9t8",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:tfjzhrLCFXK7AQ1WixVok",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:d71HsFDz9kVEYuBfP47rm"
+				"shape:tfjzhrLCFXK7AQ1WixVok"
 			],
-			"hoveredShapeId": "shape:d71HsFDz9kVEYuBfP47rm",
+			"hoveredShapeId": "shape:tfjzhrLCFXK7AQ1WixVok",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -4025,6 +4107,69 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 105.27682386131004,
+			"y": 6020.994333642989,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tfjzhrLCFXK7AQ1WixVok",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 913.2000122070312,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "DIFF Algorithm finds the differenrce between two vitrual doms "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": " it finds out the difference between old and new virtual dom , "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "it will then calculate the difference and then ACTUALLY UPDATE the DOM"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Q4U9",
+			"typeName": "shape"
+		},
+		{
 			"x": 72.22757429731826,
 			"y": 4154.938183224058,
 			"rotation": 0,
@@ -5238,8 +5383,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1062,
-				"h": 566
+				"w": 1318.4000244140625,
+				"h": 702.4000244140625
 			},
 			"insets": [
 				false,
@@ -5254,7 +5399,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.5,
+			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
