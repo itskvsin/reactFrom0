@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 877.9148168525235,
-			"y": 6082.199154262403,
-			"lastActivityTimestamp": 1743085026124,
+			"x": 649.4590426641821,
+			"y": 6170.677085669133,
+			"lastActivityTimestamp": 1743325472706,
 			"meta": {}
 		},
 		{
@@ -1816,9 +1816,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -47.277965589048996,
-			"y": -5845.54050119241,
-			"z": 1.3724409147823817,
+			"x": 328.8803131653977,
+			"y": -5800.078430331131,
+			"z": 0.7792797252519682,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2133,6 +2133,45 @@
 			},
 			"parentId": "shape:3f3maiMRlzAl0cMEeGHYp",
 			"index": "a28Fm",
+			"typeName": "shape"
+		},
+		{
+			"x": 119.73909110625561,
+			"y": 6150.145305511724,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:X7nmGJQ7H7oakggHhGKKd",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 654.6000366210938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "github.com/acdlite/react-fiber-architecture - GITHUB"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0R6MP",
 			"typeName": "shape"
 		},
 		{
@@ -2711,12 +2750,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:tfjzhrLCFXK7AQ1WixVok",
+			"editingShapeId": "shape:X7nmGJQ7H7oakggHhGKKd",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:tfjzhrLCFXK7AQ1WixVok"
+				"shape:X7nmGJQ7H7oakggHhGKKd"
 			],
-			"hoveredShapeId": "shape:tfjzhrLCFXK7AQ1WixVok",
+			"hoveredShapeId": "shape:X7nmGJQ7H7oakggHhGKKd",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -5384,7 +5423,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1318.4000244140625,
-				"h": 702.4000244140625
+				"h": 503.20001220703125
 			},
 			"insets": [
 				false,
