@@ -21,6 +21,19 @@ const Body = () => {
     setListOfRestaurants(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
   }
 
+  if (listOfRestaurants.length === 0) {
+    return (
+      <div>
+        <h1>Loading....</h1>
+        {/* <video width="320" height="240" controls autoPlay>
+        <source src="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.vecteezy.com/free-videos/loading-gif&ved=2ahUKEwj4ua6d-pONAxW9mq8BHX5qANwQuAJ6BAgQEAU&usg=AOvVaw2fi5uCGN_mSe_0UaiMjXLD" type="gif"/>
+        Your browser does not support the video tag.
+      </video>  */} 
+      {/* A loading screen can be added later */}
+      </div>
+    );
+  }
+
   return (
     <div className="body">
       {/* <div className="search">Search</div> */}
