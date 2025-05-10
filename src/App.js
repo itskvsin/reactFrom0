@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM, { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter } from "react-router";
 import Header from "./components/Header";
 import Body from "./components/Body";
 
