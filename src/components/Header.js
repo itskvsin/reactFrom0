@@ -11,16 +11,16 @@ const Header = () => {
         <a href='/'>
         <img
           className="logo"
-          src={image}
+          src={LOGO_URL}
           />
         </a>
       </div>
 
       <div className="navItems">
         <ul>
-          <a href='#'> <li>Home</li> </a> 
-          <a href='#'> <li>About Us</li> </a> 
-          <a href='#'> <li>Contact Us</li> </a> 
+          <a href='/'> <li>Home</li> </a> 
+          <a href='/about'> <li>About Us</li> </a> 
+          <a href='/contact'> <li>Contact Us</li> </a> 
           <a href='#'> <li>Cart</li> </a> 
           <button onClick={() => {
             btnNameReact === 'logout' ? setBtnNameReact('login') : setBtnNameReact('logout');
