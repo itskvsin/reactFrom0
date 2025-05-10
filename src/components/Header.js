@@ -8,10 +8,12 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logoContainer">
+        <a href='/'>
         <img
           className="logo"
           src={image}
           />
+        </a>
       </div>
 
       <div className="navItems">

@@ -8,6 +8,8 @@ const Body = () => {
 
   //Local State Variable
   const [listOfRestaurants , setListOfRestaurants] = useState([]);
+  const [filterRes , setFilterRes] = useState([]);
+  const [searchText , setSearchText] = useState("");
 
   useEffect(()=>{
     fetchData();
@@ -20,6 +22,7 @@ const Body = () => {
     const json = await data.json();
     
     setListOfRestaurants(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+    setFilterRes(json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
   }
 
 
@@ -41,19 +44,30 @@ const Body = () => {
     <Shimmer /> 
   ) : (
     <div className="body">
-      {/* <div className="search">Search</div> */}
       <div className="filter">
+      <div className="search">
+        <input type='text' className="searchBox" placeholder="Enter item name: " value={searchText} onChange={(e) => {
+          setSearchText(e.target.value)
+        }}/>
+        <button onClick={() => {
+
+          const filteredRestaurant = listOfRestaurants.filter((res) =>
+          res.info.name.toLowerCase().includes(searchText.toLowerCase())
+          )
+          setFilterRes(filteredRestaurant)
+
+        }}>Search</button>
+      </div>
         <button className="filterBtn" onClick={() => {
           //Filter the logic here
           const filteredList = listOfRestaurants.filter((res) => res.info.avgRating >= 4);
-          setListOfRestaurants(filteredList)
+          setFilterRes(filteredList)
         }}>
           Top Rated Restaurants
         </button>
       </div>
       <div className="resContainer">
-        {/* <RestaurantCard  resName = 'KevinTers' cuisine='Chai aur Tea'/> */}
-        {listOfRestaurants.map((restaurent) => (
+        {filterRes.map((restaurent) => (
           <RestaurantCard key={restaurent.info.id} resData={restaurent} />
         ))}
       </div>
