@@ -1,6 +1,7 @@
 import {LOGO_URL} from '../utils/constant'
-import image from "../public/logo.png";
+// import logo from "../public/Logo";
 import { useState } from 'react';
+import { Link } from 'react-router';
 
 const Header = () => {
   const [btnNameReact , setBtnNameReact] = useState('login');
@@ -18,10 +19,10 @@ const Header = () => {
 
       <div className="navItems">
         <ul>
-          <a href='/'> <li>Home</li> </a> 
-          <a href='/about'> <li>About Us</li> </a> 
-          <a href='/contact'> <li>Contact Us</li> </a> 
-          <a href='#'> <li>Cart</li> </a> 
+          <Link to="/"> <li>Home</li> </Link>  
+          <Link to="/about"> <li>About Us</li> </Link>  
+          <Link to="/contact"> <li>Contact Us</li> </Link>
+          <li>Cart</li>
           <button onClick={() => {
             btnNameReact === 'logout' ? setBtnNameReact('login') : setBtnNameReact('logout');
           }}>{btnNameReact}</button>
