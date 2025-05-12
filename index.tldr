@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 358.48448420559464,
-			"y": 6603.414685400337,
-			"lastActivityTimestamp": 1746876807316,
+			"x": 608.8497604056184,
+			"y": 6739.0516546467525,
+			"lastActivityTimestamp": 1747038323640,
 			"meta": {}
 		},
 		{
@@ -1863,9 +1863,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 267.36085431383503,
-			"y": -6211.548010193644,
-			"z": 0.8411024130328649,
+			"x": 97.20166856775741,
+			"y": -6483.4241256938,
+			"z": 1.170453015888202,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2808,12 +2808,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:ahvyOkj2yEogGoMupLEWd",
+			"editingShapeId": "shape:i9rP8zB-xpt1YQOy_Xlah",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ahvyOkj2yEogGoMupLEWd"
+				"shape:i9rP8zB-xpt1YQOy_Xlah"
 			],
-			"hoveredShapeId": "shape:ahvyOkj2yEogGoMupLEWd",
+			"hoveredShapeId": "shape:i9rP8zB-xpt1YQOy_Xlah",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -3824,6 +3824,45 @@
 			},
 			"parentId": "shape:t_0-pZOQ-pXLCx68fABdP",
 			"index": "a74r6",
+			"typeName": "shape"
+		},
+		{
+			"x": 116.73259940903667,
+			"y": 6721.964253675921,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:i9rP8zB-xpt1YQOy_Xlah",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 573.7875366210938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "useRouteError , useState , useEffect -> Hooks"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0XAVt",
 			"typeName": "shape"
 		},
 		{
@@ -5893,7 +5932,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1318.4000244140625,
-				"h": 450.3999938964844
+				"h": 702.4000244140625
 			},
 			"insets": [
 				false,
