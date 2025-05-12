@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 608.8497604056184,
-			"y": 6739.0516546467525,
-			"lastActivityTimestamp": 1747038323640,
+			"x": 706.6831345934714,
+			"y": 6909.677215616595,
+			"lastActivityTimestamp": 1747051340385,
 			"meta": {}
 		},
 		{
@@ -1476,6 +1476,56 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 144.99112778699347,
+			"y": 6918.391747874928,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yXM5ZkmeXOIaHaylUU8WF",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 553.9625244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										},
+										{
+											"type": "bold"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "NEVER UPDATE STATE VARIABLES DIRECTLY"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Z5xi",
+			"typeName": "shape"
+		},
+		{
 			"x": 73.5402539483155,
 			"y": 2249.27038447679,
 			"rotation": 0,
@@ -1863,9 +1913,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 97.20166856775741,
-			"y": -6483.4241256938,
-			"z": 1.170453015888202,
+			"x": 183.7848634795296,
+			"y": -6649.033104427656,
+			"z": 1.0098060953935757,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2808,12 +2858,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:i9rP8zB-xpt1YQOy_Xlah",
+			"editingShapeId": "shape:yXM5ZkmeXOIaHaylUU8WF",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:i9rP8zB-xpt1YQOy_Xlah"
+				"shape:yXM5ZkmeXOIaHaylUU8WF"
 			],
-			"hoveredShapeId": "shape:i9rP8zB-xpt1YQOy_Xlah",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -3645,6 +3695,45 @@
 			},
 			"parentId": "page:page",
 			"index": "an8Ss",
+			"typeName": "shape"
+		},
+		{
+			"x": 114.09412505371839,
+			"y": 6826.49291355903,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:mLR1cB3KZjbEJdJcyhL1v",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 270.8125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "What is super Props??"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Y3dU",
 			"typeName": "shape"
 		},
 		{
@@ -5949,7 +6038,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,

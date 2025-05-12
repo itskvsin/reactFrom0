@@ -101,3 +101,10 @@ html , body{
 .filter button , .filter input[type='text']{
     padding: 10px;
 }
+
+.userCard{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
