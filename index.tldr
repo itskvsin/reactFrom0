@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 706.6831345934714,
-			"y": 6909.677215616595,
-			"lastActivityTimestamp": 1747051340385,
+			"x": 192.7107236118506,
+			"y": 7391.369523178064,
+			"lastActivityTimestamp": 1747135988817,
 			"meta": {}
 		},
 		{
@@ -1476,8 +1476,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 144.99112778699347,
-			"y": 6918.391747874928,
+			"x": 113.72978564313459,
+			"y": 6916.654999283442,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1913,9 +1913,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 183.7848634795296,
-			"y": -6649.033104427656,
-			"z": 1.0098060953935757,
+			"x": -11.042646518486706,
+			"y": -6949.380146671434,
+			"z": 1.1493488916297063,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2858,10 +2858,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:yXM5ZkmeXOIaHaylUU8WF",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:yXM5ZkmeXOIaHaylUU8WF"
+				"shape:2bTiXZgB83wi9unHqwwHa"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -3207,6 +3207,57 @@
 			},
 			"parentId": "shape:EynYkiPKAABnY29gynj6d",
 			"index": "a35Xa",
+			"typeName": "shape"
+		},
+		{
+			"x": 105.87893646927415,
+			"y": 7377.622593568075,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2bTiXZgB83wi9unHqwwHa",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1032.987548828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "If the component is getting called 2 times then 2 instances will be created in the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "class based components"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0b5v0",
 			"typeName": "shape"
 		},
 		{
@@ -3773,6 +3824,129 @@
 			},
 			"parentId": "page:page",
 			"index": "b0MANn",
+			"typeName": "shape"
+		},
+		{
+			"x": 114.9852648524535,
+			"y": 7015.609874933351,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:wzfV3FA8wdXf_wtgzsxm9",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 559.875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Life Cycle in React Class based component :- "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t1.)Parent constructor"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t2.)paretn render"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t3.)child contructor"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t4.)child render"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t5.)child componentDidMount"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t6.)parent componentDidMount"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0a0Gk",
 			"typeName": "shape"
 		},
 		{
@@ -6010,7 +6184,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "move",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -6038,7 +6212,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
