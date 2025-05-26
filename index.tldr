@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 192.7107236118506,
-			"y": 7391.369523178064,
-			"lastActivityTimestamp": 1747135988817,
+			"x": 699.158451953934,
+			"y": 7581.573326460171,
+			"lastActivityTimestamp": 1747976618448,
 			"meta": {}
 		},
 		{
@@ -1913,9 +1913,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -11.042646518486706,
-			"y": -6949.380146671434,
-			"z": 1.1493488916297063,
+			"x": -83.3124220552165,
+			"y": -7149.243896995683,
+			"z": 1.1639272691436433,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2858,12 +2858,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:clZmZ09_ZhqOlhRwp_6Ik",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:2bTiXZgB83wi9unHqwwHa"
+				"shape:clZmZ09_ZhqOlhRwp_6Ik"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:clZmZ09_ZhqOlhRwp_6Ik",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -3080,6 +3080,69 @@
 			},
 			"parentId": "shape:3E3r0CFEk3m6y0nCVh51s",
 			"index": "a5CDt",
+			"typeName": "shape"
+		},
+		{
+			"x": 110.11822462103493,
+			"y": 7528.4772095902445,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:clZmZ09_ZhqOlhRwp_6Ik",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1108.1500244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Single Responsibility Function :- There should be only a single responsibility assigned to "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\tto specific task "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t-> makes the code resuable , maintainable , testable"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0cCKp",
 			"typeName": "shape"
 		},
 		{
@@ -6184,7 +6247,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "move",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
