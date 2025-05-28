@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 699.158451953934,
-			"y": 7581.573326460171,
-			"lastActivityTimestamp": 1747976618448,
+			"x": 658.8516818007549,
+			"y": 7677.196376174551,
+			"lastActivityTimestamp": 1748413344728,
 			"meta": {}
 		},
 		{
@@ -1751,6 +1751,45 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 106.58248035213069,
+			"y": 7677.196376174551,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:x4LUXdR2ua47yajqbn40t",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 942.3624877929688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "HIgher Order Component :- A component which returns another component"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0d3lq",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:J_ROfitt4YHyBQBfXfqEY",
 			"type": "arrow",
@@ -1913,9 +1952,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -83.3124220552165,
-			"y": -7149.243896995683,
-			"z": 1.1639272691436433,
+			"x": 502.53791686110844,
+			"y": -7105.976793349647,
+			"z": 0.5910161630558108,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2858,12 +2897,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:clZmZ09_ZhqOlhRwp_6Ik",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:clZmZ09_ZhqOlhRwp_6Ik"
+				"shape:x4LUXdR2ua47yajqbn40t"
 			],
-			"hoveredShapeId": "shape:clZmZ09_ZhqOlhRwp_6Ik",
+			"hoveredShapeId": "shape:x4LUXdR2ua47yajqbn40t",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
