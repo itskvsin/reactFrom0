@@ -16,10 +16,10 @@ const RestaurantCard = (props) => {
     sla,
   } = resData?.info;
   return (
-    <div className="w-68 m-3 p-8 h-[90%] rounded-xl shadow-md hover:bg-gradient-to-r hover:from-stone-200 hover:to-stone-100">
+    <div className="w-68 m-3 p-8 h-[90%] rounded-xl shadow-md hover:bg-gradient-to-r hover:from-stone-200 hover:to-stone-100 cursor-pointer">
       <center>
         <img
-          className="rounded"
+          className="rounded object-contain"
           src={
             CDN_URL +
             cloudinaryImageId
@@ -41,7 +41,7 @@ export const WithPromotedLabel = (RestaurantCard) => {
   return (props) => {
     return (
       <div>
-        <label>Promoted</label>
+        <label className="absolute bg-emerald-300 text-black rounded px-10 py-2 ">Open</label>
         <RestaurantCard {...props}/>
       </div>
     )
