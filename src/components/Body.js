@@ -1,4 +1,4 @@
-import RestaurantCard from "./restaurantCard";
+import RestaurantCard , { WithPromotedLabel } from "./restaurantCard";
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -10,6 +10,7 @@ const Body = () => {
   const [listOfRestaurants , setListOfRestaurants] = useState([]);
   const [filterRes , setFilterRes] = useState([]);
   const [searchText , setSearchText] = useState("");
+  const RestaurantCardPromoted = WithPromotedLabel(RestaurantCard)
 
   useEffect(()=>{
     fetchData();
@@ -75,7 +76,13 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap">
         {filterRes.map((restaurent) => (
-          <Link to={"/restaurants/" + restaurent.info.id} key={restaurent.info.id}> <RestaurantCard resData={restaurent} /> </Link>
+          <Link to={"/restaurants/" + restaurent.info.id} key={restaurent.info.id}> 
+            {restaurent.info.aggregatedDiscountInfoV3.header ? (
+              <RestaurantCardPromoted resData={restaurent} />
+            ) : (
+              <RestaurantCard resData={restaurent} />
+            )}
+          </Link>
         ))}
       </div>
     </div>
