@@ -1,8 +1,9 @@
 import RestaurantCard , { WithPromotedLabel } from "./restaurantCard";
-import { useEffect, useState } from "react";
+import { useEffect, useState , useContext } from "react";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import Shimmer from "./Shimmer";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
 
@@ -33,6 +34,7 @@ const Body = () => {
     )
   }
 
+  const { loggedInUser , setUserName2 } = useContext(UserContext)
 
   //Conditional Rendering :- Rendering on condition
   // if (listOfRestaurants.length === 0) {
@@ -52,7 +54,7 @@ const Body = () => {
     <Shimmer /> 
   ) : (
     <div className="body">
-      <div className="filter flex gap-10">
+      <div className="filter flex gap-10 items-center">
       <div className="search">
         <input type='text' className="searchBox bg-gray-100 border-solid border-1 m-3 p-2 rounded shadow-lg" placeholder="Enter item name: " value={searchText} onChange={(e) => {
           setSearchText(e.target.value)
@@ -66,6 +68,13 @@ const Body = () => {
 
         }}>Search</button>
       </div>
+        <div>
+          <input className="border-1 bg-gray-50 rounded px-4 py-2 outline-0 shadow-lg font-bold"
+          placeholder="Enter your name" 
+          value={loggedInUser}
+          onChange={(e) => {setUserName2(e.target.value)}} 
+          />
+        </div>
         <button className="filterBtn cursor-pointer text-red-400 text-xl text-shadow-sm font-bold " onClick={() => {
           //Filter the logic here
           const filteredList = listOfRestaurants.filter((res) => res.info.avgRating >= 4);
@@ -84,6 +93,7 @@ const Body = () => {
             )}
           </Link>
         ))}
+        
       </div>
     </div>
   );
