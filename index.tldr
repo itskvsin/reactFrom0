@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 658.8516818007549,
-			"y": 7677.196376174551,
-			"lastActivityTimestamp": 1748413344728,
+			"x": 890.9967487663844,
+			"y": 7853.336418687875,
+			"lastActivityTimestamp": 1748774394986,
 			"meta": {}
 		},
 		{
@@ -1732,6 +1732,81 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 122.54703538315563,
+			"y": 7799.637531968498,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QDEve9rax1s2IgNkI81qf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1324.362548828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Contolled and UnControlled Components => Controlled components which are controlled by the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t\t\tParent Component ,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t\t\tUnControlled components are those components whose state is "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t\t\t\tcontrolled by themselves"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0e4Jm",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:2y7mKc0UqmBmfJG8TdBx5",
 			"type": "arrow",
@@ -1952,9 +2027,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 502.53791686110844,
-			"y": -7105.976793349647,
-			"z": 0.5910161630558108,
+			"x": 14.477729829024337,
+			"y": -7342.2710776895,
+			"z": 0.8640773902625484,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2897,12 +2972,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:QDEve9rax1s2IgNkI81qf",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:x4LUXdR2ua47yajqbn40t"
+				"shape:QDEve9rax1s2IgNkI81qf"
 			],
-			"hoveredShapeId": "shape:x4LUXdR2ua47yajqbn40t",
+			"hoveredShapeId": "shape:QDEve9rax1s2IgNkI81qf",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -6296,7 +6371,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1318.4000244140625,
+				"w": 1281.5999755859375,
 				"h": 702.4000244140625
 			},
 			"insets": [
